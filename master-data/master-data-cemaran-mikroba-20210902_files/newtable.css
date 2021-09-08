@@ -1,0 +1,52 @@
+div#divtabelajax{margin:0px;padding:0px;}
+div#divtabelajax #blank{background:#036; position:absolute; opacity:0.5; z-index:9999; cursor:wait; display:none;}
+table.tabelajax input#tb_hal, table.tabelajax span#tb_total, #tb_process{display:none;}
+#labelload{font-weight:normal;margin-top:1px;padding:5px;font-size:11px;color:#777;width:80px;background:transparent url('../img/loading.gif') 60px 4px no-repeat;display:none;}
+div#div_tb_menu{border:1px solid;}
+table.tabelajax{width:99%;border-collapse:collapse;font-family:Lucida Grande, Verdana, Sans-serif;font-size:11px;}
+table.tabelajax tr span.order{cursor:pointer;}
+table.tabelajax thead th{font-weight: bold;font-size: 12px;text-align:left;border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;color:#000;}
+table.tabelajax tr.head td, table.tabelajax tr.head th{border-top: 4px double #ddd;}
+table.tabelajax tr span.right, table.tabelajax tr div.right{float:right;}
+table.tabelajax tr div.lineheight{margin-top:-5px;}
+table.tabelajax tr.filter{border-top: 1px solid #ddd;}
+table.tabelajax tr span.filter{background: transparent url('../img/opt-delete.png') 0 3px no-repeat;font-size:11px;font-weight:normal;padding:4px 0 0 15px;cursor:pointer;clear:both;}
+table.tabelajax tr span.red{color:#004994;}
+table.tabelajax tr span.nav{font-size:12px;}
+table.tabelajax tr span.nav a{margin: 2px 5px 0 0;padding: 3px 6px;font-size: 11px;border: 1px solid #ddd;-moz-border-radius:4px;-webkit-border-radius: 4px;border-radius: 4px;}
+table.tabelajax tr span.nav-top{margin:6px 0 0 0;}
+table.tabelajax tr span.nav-top a{margin: 2px 5px 0 0;padding: 5px 7px;border: 1px solid #ddd;-moz-border-radius:4px;-webkit-border-radius: 4px;border-radius: 4px;background: #036 url('../img/bg-btn-blue.gif') top left repeat-x !important;border-color: #458800 !important;color: #fff !important;}
+table.tabelajax tr span.nav a:hover{color:#000;}
+table.tabelajax tr span.nav a.disable{background: #ddd;cursor:default;}
+table.tabelajax tr span.nav a.current {background: #004a95 url('../img/bg-btn-blue.gif') top left repeat-x !important;border-color: #004994 !important;color: #fff !important;}
+table.tabelajax tfoot {border-top: 1px solid #ddd;border-bottom:4px double #ddd;}
+table.tabelajax tbody tr{background: #fff;}
+table.tabelajax tbody tr.alt-row{background:#f1f1f1;}
+table.tabelajax tbody tr.main-row{background:#fff;}
+/*table.tabelajax td{padding: 12px 12px 3px 12px;line-height: 1.3em;}*/
+table.tabelajax tbody tr td{vertical-align:top;}
+table.tabelajax td{padding: 5px; line-height: 1.3em;}
+table.tabelajax td.pad12{padding: 12px;}
+table.tabelajax th{padding: 12px;line-height: 1.3em;}
+table.tabelajax a{color:#004994;text-decoration:none;}
+table.tabelajax td div{color:#666;font-size:10px;}
+table.tabelajax tr.tdmenu td{padding:4px 12px 12px 12px;color:#333;font-size:10px;}
+table.tabelajax tr.tdmenu img{padding:0;margin:0 3px 0 0;}
+table.tabelajax tr.hilite td, table.tabelajax tr.selected td{background:#dfdfdf;}
+table.tabelajax #newtr {border-top: 1px solid #ddd;}
+table.tabelajax tr td#filltd{color:#666;cursor:default;padding:12px;}
+table.tabelajax input, table.tabelajax form {margin:0px;padding:0px;}
+table.tabelajax input.tb_chk, table.tabelajax input#tb_chkall{cursor:pointer;}
+table.tabelajax input.tb_text, table.tabelajax select{border:1px solid #ddd;font-family:Lucida Grande, Verdana, Sans-serif;font-size:11px;padding:4px;-moz-border-radius:4px;-webkit-border-radius: 4px;border-radius: 4px;color:#004994;cursor:pointer;}
+table.tabelajax input.btnsubmenu{background:#fff;}
+table.tabelajax select option{padding:4px;}
+table.tabelajax select option.optmenu{background:url('../img/opt-menu.png') no-repeat 0 5px;}
+table.tabelajax select{height:28px;}
+table.tabelajax input.tb_text:hover, table.tabelajax input.tb_text.mousedown, table.tabelajax select:hover, table.tabelajax select.mousedown{color:#000;}
+table.tabelajax input#tb_hal, table.tabelajax input#tb_view{width:40px;text-align:right;}
+table.tabelajax input#tb_cari{width:140px;}
+table.tabelajax a.normal{text-decoration:none;color:#000;}
+table.tabelajax table.detail{width:100%;border:1px solid #ddd;-moz-border-radius:4px;-webkit-border-radius: 4px;border-radius: 4px;}
+table.tabelajax table.detail td{padding:3px;vertical-align:text-top;}
+table.tabelajax table.detail td.title-detail{font-size:11px;padding:5px;vertical-align:middle;border-bottom:1px solid #ddd;font-weight:bold;text-align:center;color:#cc383c;}
+font#divtabelajax{color:red;}
